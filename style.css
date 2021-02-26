@@ -1,0 +1,76 @@
+.navbar {
+  background-image: linear-gradient(to bottom right, blue, rgba(0,212,255,1));
+  margin: auto;
+  /*margin-top: 50px;*/
+  margin-right: 0;
+  width: 100%;
+  max-width: 1000%;
+  height: 500px;
+  margin-bottom: 50px;
+  }
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.navbar .lol {
+  float: left;
+  color: white;
+  padding-left: 30px;
+}
+
+.welcome {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+.bapakkau {
+  margin-top: 90px;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  border-style: solid;
+  margin-bottom: 100px;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+.footer {
+    border: 1px solid;
+    background: black;
+    color: white;
+    text-align: center;
+}
